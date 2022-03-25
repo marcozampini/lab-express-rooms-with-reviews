@@ -1,0 +1,31 @@
+body {
+  padding: 50px;
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+nav form {
+  display: inline;
+  box-sizing: border-box;
+  margin: 0;
+}
+nav a,
+nav input {
+  text-decoration: none;
+  padding: 1rem;
+  background-color: coral;
+  color: white;
+  box-shadow: none;
+  border: 1px solid grey;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+h1 {
+  color: 15px;
+}
+input[type='text'],
+input[type='password'] {
+  display: block;
+}

@@ -1,0 +1,28 @@
+<h1>Sign up</h1>
+<form action='/auth/signup' method='POST'>
+  <label for='name'>
+    Username
+  </label>
+  <input id='name' type='text' name='username' />
+  <label for='password'>
+    Password
+  </label>
+  <input id='password' type='password' name='password' />
+  <label for='full-name'>
+    Full name
+  </label>
+  <input id='full-name' type='text' name='fullName' />
+  <!--label for='slack-id'>
+    Slack ID
+  </label>
+  <input id='slack-id' type='text' name='slackID' />
+  <label for='google-id'>
+    Google ID
+  </label>
+  <input id='google-id' type='text' name='googleID' /-->
+  <input type='submit' value='Sign up' />
+</form>
+
+{{#if errorMessage}}
+  {{errorMessage}}
+{{/if}}
